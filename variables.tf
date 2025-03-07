@@ -9,7 +9,12 @@ variable "security_group_id" {
 }
 
 variable "instance_type" {
-    default = "t3.micro"
+    #default = "t3.micro"
+    type = map()
+    default = {
+        monitoring="t3.medium"
+        node="te.micro"
+    }
 }
 
 variable "tags" {
