@@ -1,10 +1,11 @@
 variable "ami_id" {
-    default = "ami-090252cbe067a9e58"
+    #default = "ami-090252cbe067a9e58"
+    default = "ami-09c813fb71547fc4f"
 }
 
 variable "security_group_id" {
     type = list
-    default = ["sg-0f10b4b0d09399166"]
+    default = ["sg-0b79601d86b17db45"]
 }
 
 variable "instance_type" {
