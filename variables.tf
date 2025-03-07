@@ -13,7 +13,7 @@ variable "instance_type" {
     type = map
     default = {
         monitoring="t3.medium"
-        node="te.micro"
+        node="t3.micro"
     }
 }
 
